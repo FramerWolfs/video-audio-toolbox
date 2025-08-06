@@ -58,7 +58,7 @@ const Index = () => {
               variant={activeTab === 'video' ? 'default' : 'outline'}
               className={`${
                 activeTab === 'video' 
-                  ? 'bg-primary text-primary-foreground shadow-neon' 
+                  ? 'bg-primary text-primary-foreground' 
                   : 'border-primary text-primary hover:bg-primary hover:text-primary-foreground'
               } transition-all duration-300`}
             >
