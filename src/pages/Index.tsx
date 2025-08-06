@@ -17,7 +17,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img src={logo} alt="Framer's Workshop" className="w-10 h-10 animate-glow-pulse" />
+              <img src={logo} alt="Framer's Workshop" className="w-10 h-10" />
               <div>
                 <GlitchText className="text-xl font-bold">Framer's Workshop</GlitchText>
                 <Badge variant="outline" className="ml-2 text-xs border-primary text-primary">
